@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body {
             height:100vh;
+            /*
             background-color:black;
             background-image:url('imagens/wallpaper002.jpg');
             background-position:center;
             background-repeat:no-repeat;
             background-size:cover;
+            background-attachment:fixed;
+            */
+
+            /* Shorthand - background 
+                color > image > position > repeat > {size} > attachament
+            */
+
+            background: #000 url('imagens/wallpaper002.jpg') center no-repeat fixed;
+            background-size:cover;
         }
 
         main {
             background-color:white;
-            width:400px;
+            max-width:600px;
             padding:10px;
             margin:auto;
             border:1px solid darkblue;
@@ -28,7 +38,24 @@
 <body>
     <main>
         <h1>Teste Imagens de Fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?</p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quod odit consectetur dolore magnam, quam distinctio obcaecati quasi esse eos eum, expedita numquam perspiciatis eligendi accusantium in totam, ad a?
+        </p>
     </main>
 </body>
 </html>
